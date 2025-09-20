@@ -5,14 +5,14 @@
         public static void AskUserToStartQuiz()
         {
             bool flag;
-            int choose;
+            int userChoice;
             do
             {
                 Console.WriteLine("Attemped Quiz ?");
                 Console.WriteLine("Choose 1.(Yes) or 2.(No)");
-                flag = int.TryParse(Console.ReadLine(), out choose);
-            } while (!flag || !(choose == 1 || choose == 2));
-            if (choose == 1)
+                flag = int.TryParse(Console.ReadLine(), out userChoice);
+            } while (!flag || !(userChoice == 1 || userChoice == 2));
+            if (userChoice == 1)
             {
                 Console.WriteLine("Great! Let's start the quiz 🎯");
             }
@@ -54,14 +54,14 @@
             } while (!flag || !(YourAnswer >= 1 && YourAnswer <= 4));
             return YourAnswer;
         }
-        public static bool CheckAnswerIsCorrectOrNot(int YourAnswer, int CorrectAnsewer)
+        public static bool CheckAnswerIsCorrectOrNot(int YourAnswer, int CorrectAnswer)
         {
             //if (YourAnswer - 1 == CorrectAnsewer)   /* -1 because user enters 1 to 4 , array index is Zero based */
             //    return true;
             //else
             //    return false;
 
-            return YourAnswer - 1 == CorrectAnsewer;
+            return YourAnswer - 1 == CorrectAnswer;
         }
         public static int ShowResultAndReturnScore(int scoure, int Questions)
         {
