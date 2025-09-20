@@ -26,3 +26,4 @@ E:\Route ASP.net\Demo      Paint Presentation\Aliaa_Tarek Demo\OOP\Project C# Ba
 E:\Route ASP.net\Demo      Paint Presentation\Aliaa_Tarek Demo\OOP\Project C# Basic Console using Array\Project C# Basic Console\obj\Debug\net9.0\Project C# Basic Console.pdb
 E:\Route ASP.net\Demo      Paint Presentation\Aliaa_Tarek Demo\OOP\Project C# Basic Console using Array\Project C# Basic Console\obj\Debug\net9.0\Project C# Basic Console.genruntimeconfig.cache
 E:\Route ASP.net\Demo      Paint Presentation\Aliaa_Tarek Demo\OOP\Project C# Basic Console using Array\Project C# Basic Console\obj\Debug\net9.0\ref\Project C# Basic Console.dll
+E:\Route ASP.net\Demo      Paint Presentation\Aliaa_Tarek Demo\OOP\Project C# Basic Console using Array\Project C# Basic Console\obj\Debug\net9.0\Project C# Basic Console.sourcelink.json
